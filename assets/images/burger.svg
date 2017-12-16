@@ -1,0 +1,20 @@
+<svg width="31" height="21" viewBox="0 0 31 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 5</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2930 -30)">
+<g id="Group 5">
+<g id="Rectangle 4" opacity="0.583673">
+<use xlink:href="#path0_fill" transform="translate(2930 30)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 4" opacity="0.583673">
+<use xlink:href="#path0_fill" transform="translate(2930 39)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 4" opacity="0.583673">
+<use xlink:href="#path0_fill" transform="translate(2930 48)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 1.5C 0 0.671573 0.671573 0 1.5 0L 29.5 0C 30.3284 0 31 0.671573 31 1.5C 31 2.32843 30.3284 3 29.5 3L 1.5 3C 0.671573 3 0 2.32843 0 1.5Z"/>
+</defs>
+</svg>

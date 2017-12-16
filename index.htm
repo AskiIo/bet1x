@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="manifest" href="/manifest.json?v=1.02">
+
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" sizes="192x192" href="/logo-white-192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="mask-icon" href="/icon-red.svg" color="#ef3124">
+	<link rel="apple-touch-icon" sizes="180x180" href="/180-red-white.png">
+	
+	<meta name="msapplication-square70x70logo" content="/logo-white-70.png">
+	<meta name="msapplication-square150x150logo" content="/logo-white-150.png">
+	<meta name="msapplication-square310x310logo" content="/logo-white-310.png">
+
+	<link rel="canonical" href="https://ссылка на сайт/">
+
+	<meta name="application-name" content="Project-name">
+	<meta name="description" content="Описание сайта">
+	<meta name="keywords" content="Ключевые слова">
+	<meta name="viewport" content="width=device-width, minimum-scale=0.5, maximum-scale=3.0" initial-scale="1.0">
+	<meta name="apple-itunes-app" content="app-id=номер в itunes">
+	<meta name="theme-color" content="#000000">
+ 
+	<title>Document</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/hamburger.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+
+	<svg class="visuallyHidden">
+
+		<filter id="svg-underline" primitiveUnits="objectBoundingBox">
+
+			<feMorphology in="SourceGraphic" operator="dilate" radius="0.0275 0.15" result="outline"></feMorphology>
+
+			<feFlood flood-color="rgba(255, 255, 255, .30)" width="1" height="0.02" x="0" y="1" result="underline"></feFlood>
+
+			<feComposite in="underline" in2="outline" operator="out" result="underline"></feComposite>
+
+			<feMerge>
+
+				<feMergeNode in="underline"></feMergeNode>
+
+				<feMergeNode in="SourceGraphic"></feMergeNode>
+
+			</feMerge>
+
+		</filter>
+
+	</svg>
+
+	<div class="layout layout_type_home">
+		
+		<div id="main" class="landing landing_type_main">
+			
+			<div class="landing__video landing__video_image">
+
+				<div class="landing__overlay"></div>
+				
+				<video id="video" autoplay loop class="landing__video-element landing__video-element_invisible">
+					<source src="assets/video/kunka2_twitch_eng.mp4" type="video/mp4">
+					<!-- <source src="assets/video/main_video.ogv" type="video/ogg; codecs='theora, vorbis'">
+					<source src="assets/video/main_video.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+				</video>
+
+				<div id="main_video_inner"
+					data-ogv="assets/video/main_video.ogv"
+					data-webm="assets/video/main_video.webm"
+					data-mp4="assets/video/main_video.mp4">
+				</div>
+
+				<button id="hamburger" class="hamburger hamburger--spring" type="button">
+				  	<span class="hamburger-box">
+				   	 	<span class="hamburger-inner"></span>
+				  	</span>
+				</button>
+
+				<div id="popup" class="popup">
+
+					<div class="popup__inner">
+
+						<div class="popup__support">
+							<p>1xBet provides 24-hour customer support</p>
+							<a href="tel:88005555181" class="phone">
+								8 (800) 555-51-81
+							</a>
+						</div>
+
+						<div class="popup__menu">
+							<a href="#" class="link" data-text="About" alt="About"></a>
+							<a href="#" class="link" data-text="Payments" alt="Payments"></a>
+							<a href="#" class="link" data-text="Rules" alt="Rules"></a>
+							<a href="#" class="link" data-text="How to place bet" alt="How to place bet"></a>
+							<a href="#" class="link" data-text="Bonuses and offers" alt="Bonuses and offers"></a>
+							<a href="#" class="link" data-text="Mobile apps" alt="Mobile apps"></a>
+						</div>
+						
+					</div>
+					
+
+				</div>
+
+				<div class="landing__video-html">
+
+					<div class="landing__video-form">
+						
+						<div class="header">
+							<a href="/" class="logo_1xbet wow"></a>
+
+							<div class="support wow">
+								<p class="dc">1xBet provides 24-hour customer support</p>
+								<a href="tel:88005555181" class="phone">
+									8 (800) 555-51-81
+								</a>
+							</div>
+						</div>
+
+						<div class="left_column wow">
+							
+							<div class="line dc">
+								Special offer<span class="small">:</span>
+							</div>
+
+							<div class="line line-big mrg dc">
+								<span class="uline">Get bonus on DEPOSIT</span>
+							</div>
+
+							<div class="line line-big mrg dc">
+								<span class="uline dline">up to <strong>100 €</strong></span>
+							</div>
+
+							<div id="play-video" class="line play">
+								
+								<button class="btn-play"></button>
+
+								<span class="play-text">Click to learn the message of Kunkka</span>
+
+							</div>
+
+							<div class="line btns">
+								
+								<div class="get-bonus-wrapper">
+									<div id="bonus-data" data-title="Get bonus" data-href="/"></div>
+									<!-- <canvas id="get-bonus" data-title="Get bonus" data-href="/"></canvas> -->
+								</div>
+
+								<a href="/" class="btn">
+									Place a bet
+								</a>
+
+								<a href="#" class="btn clear">
+									Telegram Bets
+								</a>
+
+							</div>
+
+						</div>
+
+						<div class="footer">
+							
+							<div class="links">
+								<div class="links_wrapper wow">
+									
+									<div class="link_block">
+										<a href="#" class="link" data-text="About" alt="About"></a>
+										<a href="#" class="link" data-text="Payments" alt="Payments"></a>
+										<a href="#" class="link" data-text="Rules" alt="Rules"></a>
+									</div>
+									
+									<div class="link_block">
+										<a href="#" class="link" data-text="How to place bet" alt="How to place bet"></a>
+										<a href="#" class="link" data-text="Bonuses and offers" alt="Bonuses and offers"></a>
+										<a href="#" class="link" data-text="Mobile apps" alt="Mobile apps"></a>
+									</div>
+
+								</div>
+
+								<div class="app_btns">
+									<a href="/" class="apple_btn wow"></a>
+									<a href="/" class="google_btn wow"></a>
+								</div>
+							</div>
+
+							<div class="information wow dc">
+								<div class="cards">
+									<div class="visa"></div>
+									<div class="mastercard"></div>
+								</div>
+								<p>
+									For the betting you must be an adult <span class="require"></span> years.<br>
+								</p>
+								<p>
+									A registered customer can have only one account.<br>
+									Not allowed to use software for automation rates.<br>
+									Arbitrage betting is prohibited, «BC» cut the limits.<br>
+								</p>
+								<p>
+									<span class="hD">We the social</span>
+									<span class="hM">We in the social networks</span>
+									<a href="#" class="social-vk"></a>
+									<a href="#" class="social-tw"></a>
+									<a href="#" class="social-fb"></a>
+									<a href="#" class="social-tg"></a>
+									<a href="#" class="social-ub"></a>
+								</p>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<script src="assets/js/b.js"></script>
+	<script src="assets/js/main.js"></script>
+	
+</body>
+</html>

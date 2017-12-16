@@ -1,0 +1,12 @@
+<svg width="3" height="2" viewBox="0 0 3 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Rectangle</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1413 -168)">
+<g id="Rectangle" opacity="0.303725">
+<use xlink:href="#path0_fill" transform="translate(1413 168)" fill="#FFFFFF"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 1C 0 0.447715 0.447715 0 1 0L 2 0C 2.55228 0 3 0.447715 3 1L 3 1C 3 1.55228 2.55228 2 2 2L 1 2C 0.447715 2 0 1.55228 0 1L 0 1Z"/>
+</defs>
+</svg>

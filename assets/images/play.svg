@@ -1,0 +1,24 @@
+<svg width="44" height="44" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 5</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1476 -487)">
+<g id="Group 5">
+<g id="Oval" opacity="0.901664">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1476 487)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1476 487)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Shape" opacity="0.897871">
+<use xlink:href="#path2_fill" transform="translate(1492 501)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 22 44C 34.1503 44 44 34.1503 44 22C 44 9.84974 34.1503 0 22 0C 9.84974 0 0 9.84974 0 22C 0 34.1503 9.84974 44 22 44Z"/>
+<path id="path1_stroke_2x" d="M 22 45.5C 34.9787 45.5 45.5 34.9787 45.5 22L 42.5 22C 42.5 33.3218 33.3218 42.5 22 42.5L 22 45.5ZM 45.5 22C 45.5 9.02131 34.9787 -1.5 22 -1.5L 22 1.5C 33.3218 1.5 42.5 10.6782 42.5 22L 45.5 22ZM 22 -1.5C 9.02131 -1.5 -1.5 9.02131 -1.5 22L 1.5 22C 1.5 10.6782 10.6782 1.5 22 1.5L 22 -1.5ZM -1.5 22C -1.5 34.9787 9.02131 45.5 22 45.5L 22 42.5C 10.6782 42.5 1.5 33.3218 1.5 22L -1.5 22Z"/>
+<path id="path2_fill" d="M 0 0L 0 16L 14 8L 0 0Z"/>
+</defs>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Oval 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2645 -706)">
+<g id="Oval 2" opacity="0.302593">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(2645 706)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(2645 706)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 16 32C 24.8366 32 32 24.8366 32 16C 32 7.16344 24.8366 0 16 0C 7.16344 0 0 7.16344 0 16C 0 24.8366 7.16344 32 16 32Z"/>
+<path id="path1_stroke_2x" d="M 16 33C 25.3888 33 33 25.3888 33 16L 31 16C 31 24.2843 24.2843 31 16 31L 16 33ZM 33 16C 33 6.61116 25.3888 -1 16 -1L 16 1C 24.2843 1 31 7.71573 31 16L 33 16ZM 16 -1C 6.61116 -1 -1 6.61116 -1 16L 1 16C 1 7.71573 7.71573 1 16 1L 16 -1ZM -1 16C -1 25.3888 6.61116 33 16 33L 16 31C 7.71573 31 1 24.2843 1 16L -1 16Z"/>
+</defs>
+</svg>
