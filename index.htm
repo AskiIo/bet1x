@@ -49,20 +49,27 @@
 			<div class="landing__video landing__video_image">
 
 				<div class="landing__overlay"></div>
+
+				<div class="kunka_bg"></div>
 				
-				<video id="video" autoplay loop class="landing__video-element landing__video-element_invisible">
-					<source src="assets/video/kunka2_twitch_eng.mp4" type="video/mp4">
-					<!-- <source src="assets/video/main_video.ogv" type="video/ogg; codecs='theora, vorbis'">
-					<source src="assets/video/main_video.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+				<video muted id="video" autoplay loop class="landing__video-element landing__video-element_invisible">
+					<source src="assets/video/kunka2_twitch_eng_c.mp4" type="video/mp4">
+					<source src="assets/video/kunka2_twitch_eng_c.webm" type='video/webm; codecs="vp8, vorbis"'>
 				</video>
 
 				<div id="main_video_inner"
 					data-ogv="assets/video/main_video.ogv"
-					data-webm="assets/video/main_video.webm"
-					data-mp4="assets/video/main_video.mp4">
+					data-webm="assets/video/main_video_c.webm"
+					data-mp4="assets/video/main_video_c.mp4">
 				</div>
 
 				<button id="hamburger" class="hamburger hamburger--spring" type="button">
+				  	<span class="hamburger-box">
+				   	 	<span class="hamburger-inner"></span>
+				  	</span>
+				</button>
+
+				<button id="close-video" class="hamburger hamburger--spring is-active" type="button">
 				  	<span class="hamburger-box">
 				   	 	<span class="hamburger-inner"></span>
 				  	</span>
@@ -210,8 +217,8 @@
 
 	</div>
 
-	<script src="assets/js/b.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script src="assets/js/build.js"></script>
 	
 </body>
 </html>
