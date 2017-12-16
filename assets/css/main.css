@@ -70,7 +70,6 @@ p
 
     width: 100%;
     height: 100%;
-    // min-height: 1024px;
     padding: 0;
 }
 
@@ -146,12 +145,12 @@ p
 
 .landing_type_main .landing__video_image
 {
-    padding: 5% 8%;
-    // background-image: url(../images/kunka.jpg);
+    padding: 3%;
 }
 
 .logo_1xbet
 {
+    display: block;
     width: 223px;
     height: 85px;
 
@@ -577,10 +576,16 @@ html.ready.view_text .wow
     margin-top: 16px;
 }
 
+.app_btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .apple_btn,
 .google_btn
 {
-    display: inline-block;
+    display: block;
 
     width: 131px;
     height: 45px;
@@ -733,6 +738,12 @@ a[class*='social-']
     outline: none;
 }
 
+#close-video.hamburger {
+    left: auto;
+    right: 56px;
+    z-index: 999999;
+}
+
 .hamburger-box
 {
     width: 31px;
@@ -752,6 +763,12 @@ a[class*='social-']
 .hamburger.is-active .hamburger-inner::after
 {
     background-color: rgba(20, 160, 255, 1);
+}
+
+#close-video.hamburger.is-active .hamburger-inner::before,
+#close-video.hamburger.is-active .hamburger-inner::after
+{
+    background-color: #fff;
 }
 
 .popup,
@@ -882,6 +899,46 @@ a[class*='social-']
             text-decoration-skip: ink;
 }
 
+
+
+@media (max-width: 1300px) {
+    html.is-mobile .landing__video video {
+        display: none;
+    }
+    html.is-mobile .kunka_bg {
+        display: block;
+        background-size: cover;
+        background-position: center bottom;
+    }
+    html.is-mobile #play-video {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) and (orientation: portrait) {
+    html.is-mobile .information {
+        display: none;
+    }
+    html.is-mobile .links {
+        width: 100%;
+    }
+    html.is-mobile .links_wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    html.is-mobile .header {
+        margin-top: 10%;
+    }
+    html.is-mobile .app_btns {
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+}
+
 @media (max-height: 870px)
 {
     .landing_type_main .landing__video_image
@@ -925,7 +982,7 @@ a[class*='social-']
 {
     .links_wrapper
     {
-        padding-top: 13%;
+        padding-bottom: 6%;
     }
 }
 
@@ -941,7 +998,7 @@ a[class*='social-']
 {
     .popup,
     .popup::before,
-    .hamburger
+    .hamburger:not(#close-video)
     {
         display: block;
     }
@@ -950,6 +1007,10 @@ a[class*='social-']
 /* iPhone 6 plus portrait*/
 @media (max-width: 480px) and (orientation: portrait)
 {
+    html.is-mobile .kunka_bg {
+        background-size: 300%;
+        background-position: 24% bottom;
+    }
     .support
     {
         display: none;
@@ -1079,7 +1140,7 @@ a[class*='social-']
         display: -ms-flexbox;
         display: flex;
 
-        padding-bottom: 20%;
+        padding-bottom: 10%;
 
         -webkit-box-align: end;
         -ms-flex-align: end;
@@ -1116,21 +1177,47 @@ a[class*='social-']
     }
 }
 
+.kunka_bg {
+    background: url(../images/kunka2_twitch_eng.jpg) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: 350%;
+    background-position: 30% bottom;
+    display: none;
+}
+
 /* iPhone 6 portrait*/
-@media (max-width: 375px) and (orientation: portrait)
+/*@media (max-width: 375px) and (orientation: portrait)
 {
+    .landing {
+        min-height: 100%;
+    }
     .landing_type_main .landing__video_image
     {
         padding: 9% 5%;
     }
-}
+    .information {
+        padding-bottom: 4%;
+    }
+}*/
 
 /* iPhone 5 portrait*/
-@media (max-width: 320px) and (orientation: portrait)
+@media (max-width: 375px) and (orientation: portrait)
 {
+    .landing__video video {
+        display: none !important;
+    }
+    .kunka_bg {
+        display: block;
+    }
     .landing
     {
-        min-height: auto;
+        min-height: 100%;
     }
     .header
     {
@@ -1185,6 +1272,7 @@ a[class*='social-']
     {
         margin-top: 10px;
         margin-left: 2px;
+        display: block;
     }
     .app_btns
     {
@@ -1226,6 +1314,7 @@ a[class*='social-']
     }
     .line.btns
     {
+        display: block;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1238,6 +1327,9 @@ a[class*='social-']
         -ms-flex-align: center;
         align-items: center;
     }
+    .line.btns > * {
+        float: none;
+    }
 }
 
 /* iPhone 6 plus landscape */
@@ -1245,9 +1337,13 @@ a[class*='social-']
 {
     .popup,
     .popup::before,
-    .hamburger
+    .hamburger:not(#close-video)
     {
         display: block;
+    }
+    .hamburger:not(#close-video) {
+        top: 0;
+        left: 0;
     }
     .footer
     {
@@ -1276,7 +1372,7 @@ a[class*='social-']
     }
     .landing
     {
-        min-height: auto;
+        min-height: 100%;
     }
     .information p
     {
@@ -1338,7 +1434,7 @@ a[class*='social-']
     {
         line-height: 40px;
 
-        margin-top: 27px;
+        margin-top: 4%;
     }
     .cards
     {
